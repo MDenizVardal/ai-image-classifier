@@ -2,8 +2,8 @@ import os
 import pickle
 from pathlib import Path
 from core.features import FeatureExtractor
+from config import REFERENCE_FOLDER
 
-REFERENCE_FOLDER = r"C:\Users\Deniz\Desktop\ProjectPictureIdent"
 DATABASE_FILE = "reference_features.pkl"
 SUPPORTED_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.webp', '.avif', '.gif', '.bmp'}
 

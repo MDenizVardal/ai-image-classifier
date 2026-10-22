@@ -16,9 +16,10 @@ except ImportError:
     print("Run: pip install torch torchvision pillow")
     sys.exit(1)
 
+from config import REFERENCE_FOLDER
+
 DATABASE_FILE = "ai_features.pkl"
 MIN_CONFIDENCE_THRESHOLD = 40
-REFERENCE_FOLDER = r"C:\Users\Deniz\Desktop\ProjectPictureIdent"
 
 
 class AIFeatureExtractor:
